@@ -25,12 +25,12 @@ public class ConsoleExercises {
 //        System.out.println("You entered: " + userInput1 + ", " + userInput2 + ", " + userInput3 + ".");
 
 //#3b
-        new Scanner(System.in);
-
-        System.out.print("Enter a sentence: ");
-        String userInputSentence = scanner.next();
-
-        System.out.println("You entered: " + userInputSentence + ".");
+//        new Scanner(System.in);
+//
+//        System.out.print("Enter a sentence: ");
+//        String userInputSentence = scanner.next();
+//
+//        System.out.println("You entered: " + userInputSentence + ".");
 
 //        Not done with this exercise!
 
