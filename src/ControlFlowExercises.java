@@ -88,33 +88,39 @@ C : 79 - 67
 D : 66 - 60
 F : 59 - 0 */
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("\nEnter a numerical grade from 0 to 100: ");
-        int userInput = scan.nextInt();
-
-        if (userInput >= 88) {
-            System.out.println("Your letter grade is A");
-        } else if (userInput >= 80) {
-            System.out.println("Your letter grade is B");
-        } else if (userInput >= 79) {
-            System.out.println("Your letter grade is C");
-        } else if (userInput >= 66) {
-            System.out.println("Your letter grade is D");
-        } else {
-            System.out.println("Your letter grade is F");
-        }
-
-        System.out.println("Would you like to continue entering numerical grades? {Y/N}");
-        String contInput = scan.nextLine();
         boolean cont;
 
-        if (contInput.equalsIgnoreCase("Y")) {
-            cont = true;
-        } else {
-            cont = false;
-        }
+        do {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("\nEnter a numerical grade from 0 to 100: ");
+            int userInput = scan.nextInt();
 
-        scan.nextLine();
+
+            if (userInput >= 88) {
+                System.out.println("Your letter grade is A");
+            } else if (userInput >= 80) {
+                System.out.println("Your letter grade is B");
+            } else if (userInput >= 79) {
+                System.out.println("Your letter grade is C");
+            } else if (userInput >= 66) {
+                System.out.println("Your letter grade is D");
+            } else {
+                System.out.println("Your letter grade is F");
+            }
+
+            System.out.println("Would you like to continue entering numerical grades? {Y/N}");
+            scan.nextLine();
+            String contInput = scan.nextLine();
+
+            if (contInput.equalsIgnoreCase("Y")) {
+                cont = true;
+            } else {
+                cont = false;
+            }
+
+//            scan.nextLine();
+
+        } while (cont);
 
 }//end main
 }//end ControlFlowExercises
