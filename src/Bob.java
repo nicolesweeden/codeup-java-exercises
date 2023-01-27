@@ -6,6 +6,7 @@ public class Bob {
         Scanner scan = new Scanner(System.in);
         boolean cont;
 
+
         do {
             System.out.println("Say something to Bob:");
             String userInput = scan.nextLine();
