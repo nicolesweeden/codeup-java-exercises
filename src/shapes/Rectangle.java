@@ -1,22 +1,22 @@
-////package shapes;
+//package shapes;
+//
+////public class Rectangle extends Quadrilateral implements Measurable{
 ////
-//////public class Rectangle extends Quadrilateral implements Measurable{
-//////
-//////    public Rectangle(double widthNum, double lengthNum) {
-//////        super(widthNum, lengthNum);
-//////    }
-//////
-//////    @Override
-//////    public double setWidth() {
-//////        return width;
-//////    }
-//////
-//////    @Override
-//////    public double setLength() {
-//////        return length;
-//////    }
-//////}
-////==============================================CODE FOR FIRST ASSIGNMENT===============================================
+////    public Rectangle(double widthNum, double lengthNum) {
+////        super(widthNum, lengthNum);
+////    }
+////
+////    @Override
+////    public double setWidth() {
+////        return width;
+////    }
+////
+////    @Override
+////    public double setLength() {
+////        return length;
+////    }
+////}
+//==============================================CODE FOR FIRST ASSIGNMENT===============================================
 //public class Rectangle {
 //    protected int length;
 //    protected int width;
@@ -31,6 +31,6 @@
 //}
 //public int getPerimeter() {
 //    return (2 * length) + (2 * width);
-////}
-////
-////}
+//}
+//
+//}
