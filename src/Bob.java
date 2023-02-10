@@ -1,12 +1,11 @@
 import java.util.Scanner;
-//Need to redo bob app?
+
 public class Bob {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
         boolean cont;
 
-//        comment to see if this posts to GH
         do {
             System.out.println("Say something to Bob:");
             String userInput = scan.nextLine();
